@@ -16,8 +16,7 @@
 body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
-  padding-left: 70px;
-  padding-right: 70px;
+
 }
 
 @layer utilities {
