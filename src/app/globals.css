@@ -25,3 +25,20 @@ body {
     text-wrap: balance;
   }
 }
+.border-mani{
+  text-decoration: none; /* حذف خط زیر لینک در حالت عادی */
+  position: relative;
+}
+.border-mani::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px; /* ضخامت خط */
+  bottom: 0;
+  left: 0;
+  background-color: black; /* رنگ خط */
+  transition: width 0.3s ease; /* زمان و نوع انیمیشن */
+}
+.border-mani:hover::after {
+  width: 100%; /* وقتی هاور شد، خط به اندازه کل متن کشیده شود */
+}
