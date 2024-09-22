@@ -16,7 +16,11 @@ export default function Header() {
     const [isShopOpen, setShopOpen] = useState(false);
 
     return (
+<<<<<<< HEAD
         <div className="relative">
+=======
+        <div className='px-[70px]'>
+>>>>>>> 88828dcc6f0f7acc1522c4c331b63b3325c99c79
             <div className={'w-[93%] m-auto'}>
                 {/* section one header */}
                 <section className={'flex items-center justify-between py-3'}>

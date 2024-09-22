@@ -9,15 +9,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
     --foreground: #ededed;
   }
 }
 
 body {
-  color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+
 }
 
 @layer utilities {
@@ -25,6 +24,7 @@ body {
     text-wrap: balance;
   }
 }
+<<<<<<< HEAD
 .border-mani{
   text-decoration: none; /* حذف خط زیر لینک در حالت عادی */
   position: relative;
@@ -42,3 +42,7 @@ body {
 .border-mani:hover::after {
   width: 100%; /* وقتی هاور شد، خط به اندازه کل متن کشیده شود */
 }
+=======
+
+
+>>>>>>> 88828dcc6f0f7acc1522c4c331b63b3325c99c79
