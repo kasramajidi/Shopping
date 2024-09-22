@@ -13,8 +13,8 @@ import { MdOutlineShoppingCart } from "react-icons/md";
 
 export default function Header() {
     return (
-        <div className='hidden'>
-            <div className={'w-[93%] m-auto '}>
+        <div className='px-[70px]'>
+            <div className={'w-[93%] m-auto'}>
                 {/* section one header */}
                 <section className={'flex items-center justify-between py-3 '}>
                     {/* icon */}
