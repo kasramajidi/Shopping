@@ -3,46 +3,67 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    --background: #ffffff;
+    --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground: #ededed;
-  }
+    :root {
+        --foreground: #ededed;
+    }
 }
 
 body {
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+    .text-balance {
+        text-wrap: none;
+    }
 }
-<<<<<<< HEAD
-.border-mani{
-  text-decoration: none; /* حذف خط زیر لینک در حالت عادی */
-  position: relative;
+
+.border-mani {
+    text-decoration: none; /* حذف خط زیر لینک در حالت عادی */
+    position: relative;
 }
+
 .border-mani::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px; /* ضخامت خط */
-  bottom: 0;
-  left: 0;
-  background-color: black; /* رنگ خط */
-  transition: width 0.3s ease; /* زمان و نوع انیمیشن */
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px; /* ضخامت خط */
+    bottom: 0;
+    left: 0;
+    background-color: black; /* رنگ خط */
+    transition: width 0.3s ease; /* زمان و نوع انیمیشن */
 }
+
 .border-mani:hover::after {
-  width: 100%; /* وقتی هاور شد، خط به اندازه کل متن کشیده شود */
+    width: 100%; /* وقتی هاور شد، خط به اندازه کل متن کشیده شود */
 }
-=======
+.border-link {
+    text-decoration: none; /* حذف خط زیر لینک در حالت عادی */
+    position: relative;
+}
 
+.border-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px; /* ضخامت خط */
+    bottom: 0;
+    left: 0;
+    background-color: white; /* رنگ خط */
+    transition: width 0.3s ease; /* زمان و نوع انیمیشن */
+}
+.border-link:hover::after {
+    width: 100%; /* وقتی هاور شد، خط به اندازه کل متن کشیده شود */
+}
+.backLink {
+    background:linear-gradient(to bottom right, rgb(51, 51, 51), transparent 100%), url("/Image/linkWomen/modern-1-img1.jpg") no-repeat center center;
+    background-size: cover;
+}
 
->>>>>>> 88828dcc6f0f7acc1522c4c331b63b3325c99c79
