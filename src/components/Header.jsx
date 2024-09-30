@@ -10,14 +10,14 @@ import {IoChevronDown} from "react-icons/io5";
 import {IoPerson} from "react-icons/io5";
 import {FaRegHeart} from "react-icons/fa";
 import {MdOutlineShoppingCart} from "react-icons/md";
-import Shop from '@/components/header/Shop';
-import Women from '@/components/header/Women';
-import Men from '@/components/header/Men';
-import Acces from '@/components/header/Acces';
-import Shoes from '@/components/header/Shoes';
-import Usd from '@/components/header/Usd';
-import English from '@/components/header/English';
-import Form from '@/components/header/Form';
+import Shop from '../components/header/Shop'
+import Women from '../components/header/Women';
+import Men from '../components/header/Men';
+import Acces from '../components/header/Acces';
+import Shoes from '../components/header/Shoes';
+import Usd from '../components/header/Shoes';
+import English from '../components/header/English';
+import Form from '../components/header/Form';
 
 export default function Header() {
     const [openLink, setOpenLink] = useState(null);

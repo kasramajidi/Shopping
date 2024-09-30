@@ -26,7 +26,7 @@ import { MdCardGiftcard } from "react-icons/md";
 
 export default function Footer() {
     return (
-        <div className="xs:w-[93%] xs:m-auto w-full px-[10px] xs:px-[70px]">
+        <div className="xs:w-[93%] xs:m-auto w-full px-[10px] xs:px-0">
             <div className="flex flex-col justify-center py-10">
                 <hr className='my-[10px] block xs:hidden' />
                 {/* part one */}
