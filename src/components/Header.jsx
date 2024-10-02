@@ -31,7 +31,7 @@ export default function Header() {
     };
 
     return (
-        <div className="relative">
+        <div className="relative mb-5 hidden">
             <div className=' w-[100%]'>
                 <div className={'w-[93%] m-auto'}>
                     {/* section one header */}

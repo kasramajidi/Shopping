@@ -36,7 +36,7 @@ export default function Footer() {
                             width={180}
                             height={180}
                             alt=""
-                            src={"/img/footer/logo.png"}
+                            src={"/image/footer/logo.png"}
                             className="xs:mb-8 mb-4 xs:w-[180px] w-[100px]"
                         />
                         <span className={`xs:mb-5 mb-2  ${InterLight.className} `}>
@@ -364,7 +364,7 @@ export default function Footer() {
                             width={300}
                             height={300}
                             alt=""
-                            src={"/img/footer/payment-icons (1).png"}
+                            src={"/image/footer/payment-icons (1).png"}
                         />
                     </div>
                 </div>
